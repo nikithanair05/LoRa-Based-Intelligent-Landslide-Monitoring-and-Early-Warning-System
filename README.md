@@ -6,6 +6,13 @@
 ## 📌 Project Overview
 **GeoSentinel** is an IoT-based landslide detection and early-warning prototype system. The remote sensor node acquires environmental data (Temperature, Humidity, Soil Moisture, Precipitation) and ground kinematic movement data (3-Axis Accelerometer and Gyroscope from MPU6050) and transmits it over **433 MHz LoRa (SX1278)**.
 
+##  Project Demo
+<p align="center">
+  <a href="https://youtu.be/x0-8KgMGR_M">
+    <img src="https://img.youtube.com/vi/x0-8KgMGR_M/maxresdefault.jpg" width="700" alt="Project Demo Video">
+  </a>
+</p>
+
 The **Base-Station ESP32** receives the incoming LoRa packets, parses the telemetry payload, computes communication quality metrics, and serves a live, responsive web dashboard directly to connected devices over Wi-Fi without requiring external web servers or internet access.
 
 ```
